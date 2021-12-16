@@ -1,0 +1,38 @@
+.indemand{
+    position: static;
+    width: 354px;
+    height:294px;
+    right: 0px;
+    top: 616px;
+    bottom: 0px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.indemand p{
+    position: relative;
+    width: 150px;
+    height: 24px;
+    left: 10px;
+    top: 10px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    /* Secondary/Dark Grey/900 */
+
+    color: #1B2559;
+
+}

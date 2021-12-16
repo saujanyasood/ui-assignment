@@ -1,0 +1,78 @@
+.element{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    height: 24px;
+    
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-bottom: 24px;
+}
+
+.element .icon{
+    position: relative;
+    height: 24px;
+    width: 24px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-right: 12px;
+}
+
+.element .icon .vector{
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+}
+
+.element .icon img{
+    position: absolute;
+    height: 17px;
+    width: 20px;
+    left: 2px;
+    top: 3px;
+    border-radius: 0px;
+    object-fit:scale-down;
+}
+
+.element p{
+    position: static;
+    height: 24px;
+    left: 36px;
+    top: 0px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0;
+}

@@ -1,0 +1,390 @@
+.topbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 1206px;
+    height: 80px;
+    left: 234px;
+    top: 0px;
+
+    background: lightcoral;
+}
+
+.topbar .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    align-items: center;
+    padding: 0;
+    position: static;
+    width: 1206px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.topbar .header .leftNav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: static;
+    width: 408px;
+    height: 40px;
+    left: 42px;
+    top: 20px;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.topbar .header .leftNav .exploreButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: 40px;
+    width: 110px;
+    left: 0px;
+    top: 0px;
+    border-radius: 4px;
+
+    position: static;
+    
+    background: #3672E9;
+    border: 0;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-right: 32px;
+}
+
+.topbar .header .leftNav .exploreButton .text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    position: static;
+    width: 58px;
+    height: 20px;
+    left: 12px;
+    top: 10px;
+}
+
+.topbar .header .leftNav .exploreButton .text p{
+    position: static;
+    width: 58px;
+    height: 20px;
+    left: 0px;
+    top: 0px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+
+    /* Action Primary / Inverted */
+
+    color: #FFFFFF;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0;
+}
+
+.topbar .header .leftNav .exploreButton .vector{
+    position: static;
+    width: 24px;
+    height: 24px;
+    left: 74px;
+    top: 8px;
+    display: flex;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-left: 4px;
+    align-items: center;
+}
+
+.topbar .header .leftNav .exploreButton .vector img{
+    height: 7.003618240356445px;
+    width: 14.024502754211426px;
+    left: 4.998779296875px;
+    top: 8.99871826171875px;
+    border-radius: 0px;
+    margin-left: 4px;
+    
+}
+
+.topbar .header .leftNav .searchBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    height: 40px;
+    width: 266px;
+    left: 142px;
+    top: 0px;
+    border-radius: 10px;
+
+    position: static;
+
+    background: #F7F6F4;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border: 0;
+}
+
+.topbar .header .leftNav .searchBox .vector{
+    display: flex;
+    position: static;
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+    top: 8px;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    align-items: center;
+}
+
+.topbar .header .leftNav .searchBox .vector img{
+    height: 17.489999771118164px;
+    width: 17.489999771118164px;
+    border-radius: 0px;
+    margin-left: 3px;
+}
+
+.topbar .header .leftNav .searchBox input{
+    position: static;
+    
+    height: 18px;
+    width: 70%;
+    left: 54px;
+    top: calc(50% - 18px/2);
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    border: 0;
+    background: transparent;
+    /* identical to box height */
+
+    outline: none;
+
+    color: #65676D;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.topbar .header .rightNav{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+
+    position: static;
+    height: 50px;
+    top: calc(50% - 50px/2);
+    margin-right: 30px;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.topbar .header .rightNav .vector{
+    /* position: static; */
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    margin-top: 13px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.topbar .header .rightNav .vector img{
+    position: static;
+    height: 19.5px;
+    width: 16px;
+    margin-left: 4px;
+    margin-top: 2.5px;
+    border-radius: 0px;
+    border: none;
+}
+
+.topbar .header .rightNav .idol img{
+    position: static;
+    width: 50px;
+    height: 50px;
+    margin-left: 16px;
+    top: calc(50% - 50px/2);
+
+    border-radius: 50%;
+    border: 0.1px solid #000000;
+    box-sizing: border-box;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.topbar .header .rightNav .details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    position: static;
+    width: 130px;
+    height: 43px;
+    margin-left: 12px;
+    margin-top: 3.5px;
+}
+
+.topbar .header .rightNav .details .name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+
+    position: static;
+    width: 130px;
+    height: 21px;
+    left: 0px;
+    top: 0px;
+
+}
+
+.topbar .header .rightNav .details .name p{
+    position: static;
+    height: 21px;
+    margin-left: 0px;
+    top: 0px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #2C3E50;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.topbar .header .rightNav .details .name .arrow{
+    position: static;
+    width: 16px;
+    height: 16px;
+    right: -16px;
+    top: calc(50% - 16px/2 + 16px);
+
+    transform: rotate(180deg);
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.topbar .header .rightNav .details .name .arrow img{
+    height: 5.656890869140625px;
+    width: 9.428121566772461px;
+    border-radius: 0px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+
+    transform: rotate(180deg);
+}
+
+.topbar .header .rightNav .details .number{
+    position: static;
+    width: 68px;
+    height: 18px;
+    left: 0px;
+    top: 25px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+
+
+    color: rgba(0, 0, 0, 0.5);
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 4px 0px;
+}

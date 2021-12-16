@@ -1,0 +1,181 @@
+.intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 1110px;
+    height: 94.34px;
+    left: 31.5px;
+    top: 72px;
+
+}
+
+.intro .header{
+    position: static;
+    width: 840px;
+    height: 94.34px;
+    left: 0px;
+    top: 0px;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-right:16px;
+}
+
+.intro .header .rect{
+    position: absolute;
+    width: 840px;
+    height: 70px;
+    left: 0px;
+    top: 12px;
+
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.intro .header .rect .greeting{
+    position: absolute;
+    width: 157px;
+    height: 50px;
+    left: 20px;
+    top: 10px;
+}
+
+.intro .header .rect .greeting .hello{
+    position: absolute;
+    width: 98px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    /* Black */
+
+    color: #0C0B0B;
+}
+
+.intro .header .rect .greeting .greeting2{
+    position: absolute;
+    width: 157px;
+    height: 18px;
+    left: 0px;
+    top: 32px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+
+
+    color: #5A5A5A;
+
+} 
+
+.intro .header img{
+    position: absolute;
+    width: 193.11px;
+    height: 94.34px;
+    left: 635px;
+    top: 0px;
+
+    opacity: 0.8;
+}
+
+.intro .download{
+    position: static;
+    width: 254px;
+    height: 70px;
+    left: 856px;
+    top: 12.17px;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    background: linear-gradient(230.04deg, #5B5B5B 2.11%, #232323 102.63%);
+    border-radius: 6.90585px;
+
+}
+
+.intro .download .textframe{
+    position: absolute;
+    width: 220.26px;
+    height: 35.34px;
+    left: 874px;
+    top: 27.83px;
+}
+
+.intro .download .textframe p{
+    /* position: absolute; */
+    width: 130.23px;
+    height: 20.26px;
+    left: 0px;
+    top: 0px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.intro .download .textframe .lastweek{
+    position: absolute;
+    width: 74.36px;
+    height: 12px;
+    left: 0px;
+    bottom: 0px;
+}
+
+.intro .download .textframe .lastweek p{
+    position: absolute;
+    height: 12px;
+    left: 0px;
+    top: 0;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    /* or 18px */
+
+    display: flex;
+    align-items: center;
+
+    color: #3672E9;
+
+}
+
+.intro .download .textframe .lastweek img{
+    position: absolute;
+    width: 7.59px;
+    height: 4.43px;
+    right: 0px;
+    top: 4.89px;
+
+    /* gray/500 */
+
+}

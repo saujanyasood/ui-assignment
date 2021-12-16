@@ -1,0 +1,113 @@
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    position: static;
+    width: 225px;
+    height: 32px;
+    left: 0px;
+    top: 48px;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 16px 10px;
+}
+
+.card .name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 180px;
+    height: 31px;
+    left: 44px;
+    top: 0.5px;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.card img{
+    position: relative;
+    width: 32px;
+    height: 32px;
+    left: 0px;
+    top: 0px;
+    margin-right: 12px;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.card .name .title{
+    position: static;
+    width: 180px;
+    height: 18px;
+    left: 0px;
+    top: 0px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+
+
+    /* Secondary/Dark Grey/900 */
+
+    color: #1B2559;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.card .name .employees{
+    position: static;
+    width: 61px;
+    height: 13px;
+    left: 0px;
+    top: 18px;
+
+    font-family: Poppins ;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 13px;
+    /* identical to box height */
+
+
+    /* Secondary/Grey/600 */
+
+    color: #A3AED0;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
