@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ui-assignment/static/css/main.4014ada5.chunk.css",
+    "main.js": "/ui-assignment/static/js/main.7379c643.chunk.js",
+    "main.js.map": "/ui-assignment/static/js/main.7379c643.chunk.js.map",
+    "runtime-main.js": "/ui-assignment/static/js/runtime-main.8c3c62a2.js",
+    "runtime-main.js.map": "/ui-assignment/static/js/runtime-main.8c3c62a2.js.map",
+    "static/js/2.6b9b132f.chunk.js": "/ui-assignment/static/js/2.6b9b132f.chunk.js",
+    "static/js/2.6b9b132f.chunk.js.map": "/ui-assignment/static/js/2.6b9b132f.chunk.js.map",
+    "index.html": "/ui-assignment/index.html",
+    "static/css/main.4014ada5.chunk.css.map": "/ui-assignment/static/css/main.4014ada5.chunk.css.map",
+    "static/js/2.6b9b132f.chunk.js.LICENSE.txt": "/ui-assignment/static/js/2.6b9b132f.chunk.js.LICENSE.txt",
+    "static/media/headerimg.32b85690.png": "/ui-assignment/static/media/headerimg.32b85690.png",
+    "static/media/logo.7db73823.png": "/ui-assignment/static/media/logo.7db73823.png",
+    "static/media/saujanya.bce2b180.png": "/ui-assignment/static/media/saujanya.bce2b180.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c3c62a2.js",
+    "static/js/2.6b9b132f.chunk.js",
+    "static/css/main.4014ada5.chunk.css",
+    "static/js/main.7379c643.chunk.js"
+  ]
+}
